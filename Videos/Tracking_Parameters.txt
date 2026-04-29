@@ -1,3 +1,43 @@
+- Compo_20_06:
+
+Wavelength: 0.633um
+Pitch X: 1.85um
+Pitch Y: 1.85um
+MO: 60x
+Filter Method: Gaussian
+Color filtering activate - Blob color 255 (white sample)
+Min Area: 120 
+Max Area: 3000
+Filter by circularity: 0.8
+Kalman P: 100
+Kalman Q: 5
+Kalman R: 1
+Max distance: 160
+Max skips: 20
+Min track length: 7
+
+- Compo_p782_40x:
+
+Wavelength: 0.633um
+Pitch X: 3.75um
+Pitch Y: 3.75um
+MO: 40x
+Filter Method: Bilateral
+Color filtering activate - Blob color 255 (white sample)
+Min Area: 120 
+Max Area: 8000
+Filter by circularity: 0.3
+Kalman P: 100
+Kalman Q: 1
+Kalman R: 10
+Max distance: 20
+Max skips: 10
+Min track length: 5
+Focus metric: Variance
+Z min: -200
+z Max: -100
+Z step: 2
+
 - RBC_10x_15fps:
 
 Wavelength: 0.633um
@@ -25,32 +65,3 @@ Max Area: 500
 Kalman P: 100
 Kalman Q: 0.01
 Kalman R: 1
-
-- Compo_40x:
-
-Wavelength: 0.633um
-Pitch X: 3.75um
-Pitch Y: 3.75um
-MO: 10x
-Filter Method: Gaussian
-Color filtering activate - Blob color 255 (white sample)
-Min Area: 150 
-Max Area: 500
-Kalman P: 100
-Kalman Q: 0.01
-Kalman R: 1
-
-- Compo_40x_20_06:
-
-Wavelength: 0.633um
-Pitch X: 3.75um
-Pitch Y: 3.75um
-MO: 10x
-Filter Method: Gaussian
-Color filtering activate - Blob color 255 (white sample)
-Min Area: 150 
-Max Area: 500
-Kalman P: 100
-Kalman Q: 0.01
-Kalman R: 1
-

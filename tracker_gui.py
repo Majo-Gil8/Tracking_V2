@@ -1,5 +1,5 @@
 """
-DHM Particle Tracker - GUI v3
+DHM Particle Tracker - GUI v2
 """
 
 import tkinter as tk
